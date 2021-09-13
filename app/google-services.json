@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "314435840711",
+    "firebase_url": "https://aone-music-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aone-music",
+    "storage_bucket": "aone-music.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314435840711:android:099de6749324356d25ace2",
+        "android_client_info": {
+          "package_name": "com.project.musicplayers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314435840711-1lu2f29cgt5stupn59ak23hkgf8ltj0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY5SAO6bNZWs8oGP3QcXdPlWA63EuT_mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314435840711-1lu2f29cgt5stupn59ak23hkgf8ltj0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
