@@ -169,11 +169,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, JcPlayerManagerL
 
     private fun updateProgress(jcStatus: JcStatus) {
 
-        runOnUiThread {
-            var progress = ((jcStatus.duration - jcStatus.currentPosition).toFloat()
-                    / jcStatus.duration.toFloat())
+        runOnUiThread { var progress = ((jcStatus.duration - jcStatus.currentPosition).toFloat() / jcStatus.duration.toFloat())
             progress = 1.0f - progress
-            ListSongAdapter.updateProgres(jcStatus.jcAudio, progress)
+           // ListSongAdapter.updateProgres(jcStatus.jcAudio, progress)
 
         }
     }

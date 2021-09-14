@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/drawable/edit_text_layout.xml" value="0.22205128205128205" />
+        <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/drawable/ic_back.xml" value="0.1" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/drawable/ic_baseline_library_music.xml" value="0.22205128205128205" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/drawable/ic_baseline_photo.xml" value="0.22205128205128205" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/drawable/ic_file_upload_black_24dp.xml" value="0.22205128205128205" />
@@ -11,7 +12,7 @@
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/activity_upload.xml" value="0.22" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/audio_item.xml" value="0.209375" />
-        <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/list_song.xml" value="0.25" />
+        <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/list_song.xml" value="0.33" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/toolbar_back_shadow.xml" value="0.209375" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/toolbar_custom.xml" value="0.209375" />
         <entry key="..\:/Androidproject/MyProject/MusicPlayers/app/src/main/res/layout/toolbar_title.xml" value="0.209375" />

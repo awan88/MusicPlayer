@@ -14,19 +14,15 @@ import androidx.constraintlayout.widget.ConstraintLayout
 
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.jean.jcplayer.model.JcAudio
 import com.project.musicplayers.R
-import com.project.musicplayers.adapter.AudioAdapterJc.AudioAdapterViewHolder
 import com.project.musicplayers.model.ListSong
 
 class ListSongAdapter(private val mContext: Context,
                       private val mSong: List<ListSong>,
                       private val mClick: OnClicks,
+) : RecyclerView.Adapter<ListSongAdapter.ViewHolder?>() {
 
-)
-    : RecyclerView.Adapter<ListSongAdapter.ViewHolder?>() {
-
-    val progressMap = SparseArray<Float>()
+    private val progressMap = SparseArray<Float>()
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(mContext)
@@ -65,7 +61,7 @@ class ListSongAdapter(private val mContext: Context,
 
         Glide.with(mContext).load(song.getImageUrl()).into(holder.imageView)
         holder.titleTxt.text = song.getSongName()
-        holder.artist.text = song.getSongArtist()
+        holder.artist.text = "Artis : " + song.getSongArtist()
         holder.duration.text = song.getSongDuration()
 
         holder.container.setOnClickListener {
